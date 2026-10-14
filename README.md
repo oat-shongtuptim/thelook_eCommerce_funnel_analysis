@@ -22,8 +22,8 @@ In April 2026:
 
 ## Files
 
-- SQL code
-- dashboard screenshots
+- funnel analysis code in SQL
+- summary file in PDF
 
 ## Author
 
