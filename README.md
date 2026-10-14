@@ -22,8 +22,8 @@ In April 2026:
 
 ## Files
 
-- `sql/funnel_analysis.sql`: SQL code
-- `images/dashboard.png`: dashboard screenshots
+- SQL code
+- dashboard screenshots
 
 ## Author
 
