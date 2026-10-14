@@ -27,4 +27,4 @@ In April 2026:
 
 ## Author
 
-Thanapol Shongtuptim · [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
+Thanapol Shongtuptim
