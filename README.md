@@ -1,29 +1,29 @@
-# SQL_Project_Funnel_Channel_Analysis
+# About this project
 
-SQL project to analyze the customer journey and marketing channels of an online store.
+This is my first end-to-end SQL project analyzing the customer journey and marketing channels of thelook eCommerce.
 
-This project uses BigQuery SQL to find where shoppers drop off between product view, cart and purchase, and whether marketing channels convert differently. The data is synthetic (Google's theLook eCommerce dataset), so the project shows the method, not real shopper behavior.
+This project uses BigQuery SQL to find where shoppers drop off and whether marketing channels convert differently. I also build a dashboard on Data Studio to keep everything inside Google environment. 
 
-> Dashboard screenshot below. Full queries are in the `sql/` folder.
+P.S. The data is synthetic so a lot of findings is pretty weird.
 
 ## Database and Tools
 
-- Google BigQuery (SQL)
 - theLook eCommerce public dataset
-- Looker Studio (dashboard)
+- Google BigQuery (SQL)
+- Data Studio (dashboard)
 
-## Key Findings (April 2026)
+## Key Findings
 
-- 10,457 sessions, 5,207 purchases (49.8% conversion)
-- Larger drop-off is between cart and purchase (33.6%), not before the cart (25.0%)
-- No marketing channel stands out (conversion 49.0% to 51.3%, confirmed with confidence intervals and z-tests)
+In April 2026:
+- 10,457 total sessions with 5,207 purchases (49.8% conversion)
+- Drop-off between product view and cart is 25%. Then, cart and purchase at 33.6%
+- No marketing channel stands out. All channels' conversion rate is between 49.0% to 51.3%
 - 24.2% of gross revenue ($310K) is lost to cancellations and returns
 
 ## Files
 
-- `sql/copy_thelook_ecommerce.sql`: copies the public tables into your own dataset
-- `sql/dashboard.sql`: builds the tables behind the dashboard
-- `sql/exploration.sql`: checks the assumptions behind the analysis
+- `sql/funnel_analysis.sql`: SQL code
+- `images/dashboard.png`: dashboard screenshots
 
 ## Author
 
