@@ -24,7 +24,3 @@ In April 2026:
 
 - funnel analysis code in SQL
 - summary file in PDF
-
-## Author
-
-Thanapol Shongtuptim
